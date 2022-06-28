@@ -8,9 +8,9 @@ def beg():
 		'content': "pls beg"
 	}
 	header = {
-		'authorization': 'OTg5MTEzNzY1Mjg0OTY2NDQw.GmbKmu.uam-UpHAl-zXhf2XODXuxhLaXMZ7UnmukTy4y0'
+		'authorization': '{check readme.md}'
 	}
-	r = requests.post('https://discord.com/api/v9/channels/798564021635776512/messages', data=payload, headers=header)
+	r = requests.post('{check readme.md}', data=payload, headers=header)
 def hunt():
 
 	payload1 = {
@@ -18,9 +18,9 @@ def hunt():
 	}
 
 	header1 = {
-		'authorization': 'OTg5MTEzNzY1Mjg0OTY2NDQw.GmbKmu.uam-UpHAl-zXhf2XODXuxhLaXMZ7UnmukTy4y0'
+		'authorization': '{check readme.md}'
 	}
-	r = requests.post('https://discord.com/api/v9/channels/798564021635776512/messages', data=payload1, headers=header1)
+	r = requests.post('{check readme.md}', data=payload1, headers=header1)
 
 
 def fish():
@@ -29,9 +29,9 @@ def fish():
 	}
 
 	header2 = {
-		'authorization': 'OTg5MTEzNzY1Mjg0OTY2NDQw.GmbKmu.uam-UpHAl-zXhf2XODXuxhLaXMZ7UnmukTy4y0'
+		'authorization': '{check readme.md}'
 	}
-	r = requests.post('https://discord.com/api/v9/channels/798564021635776512/messages', data=payload2, headers=header2)
+	r = requests.post('{check readme.md}', data=payload2, headers=header2)
 
 def dig():
 	payload3 = {
@@ -39,10 +39,10 @@ def dig():
 	}
 
 	header3 = {
-		'authorization': 'OTg5MTEzNzY1Mjg0OTY2NDQw.GmbKmu.uam-UpHAl-zXhf2XODXuxhLaXMZ7UnmukTy4y0'
+		'authorization': '{check readme.md}'
 	}
 
-	r = requests.post('https://discord.com/api/v9/channels/798564021635776512/messages', data=payload3, headers=header3)	
+	r = requests.post('{check readme.md}', data=payload3, headers=header3)	
 
 for x in range(1000):
 	p1 = multiprocessing.Process(target=beg)
